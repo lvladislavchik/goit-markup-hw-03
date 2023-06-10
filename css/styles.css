@@ -25,19 +25,20 @@ ul {
 }
 
 .container {
-    width: 100%;
-    max-width: 1440px;
+    width: 1158px;
     padding-left: 156px;
     padding-right: 156px;
     margin: 0 auto;
+    padding: 0 15px
 }
 
 .header-container {
     display: flex;
 }
 
-nav {
+.nav-container {
     display: flex;
+    align-items: center;
 }
 
 .link {
@@ -56,6 +57,7 @@ nav {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .studio {
@@ -66,9 +68,9 @@ nav {
     color: var(--cloud);
 }
 
-header {
+.body-header {
     padding: 24px 0;
-
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-menu {
@@ -81,6 +83,7 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0
 }
 
 .header-menu-link {
@@ -173,6 +176,30 @@ header {
     text-transform: capitalize;
 }
 
+img {
+    display: block;
+}
+
+.features-container {
+    padding: 120px 0;
+    display: flex;
+    gap: 24px;
+}
+
+.wawd-container {
+    display: flex;
+    gap: 24px;
+}
+
+.developer-container {
+    display: flex;
+    gap: 24px;
+}
+
+.portfolio-example-container {
+    display: flex;
+}
+
 .portfolio {
     font-weight: 500;
     font-size: 20px;
@@ -205,6 +232,12 @@ header {
 .developers {
     background-color: #F4F4FD;
 }
+
+.buttonp-container {
+    display: flex;
+}
+
+
 
 .footer {
     background-color: var(--navy-blue);
