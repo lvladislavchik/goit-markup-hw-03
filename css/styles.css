@@ -83,7 +83,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -123,6 +123,7 @@ ul {
 
 .introduction {
     background-color: var(--navy-blue);
+    padding: 188px 0;
 }
 
 .slogan {
@@ -132,10 +133,11 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
+    max-width: 496px;
 }
 
 .button {
-    background-color: #4D5AE5;
+    background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -143,6 +145,11 @@ ul {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button-portfolio {
@@ -164,6 +171,10 @@ ul {
 
 .button-portfolio:focus {
     color: #FFFFFF;
+}
+
+.advantages {
+    padding: 120px 0;
 }
 
 .h-two {
@@ -208,6 +219,7 @@ img {
 
 .ul-background {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 
 .h-three {
