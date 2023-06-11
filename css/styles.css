@@ -112,8 +112,7 @@ img {
 }
 
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
+    visibility: collapse;
 }
 
 /* logo */
@@ -204,7 +203,7 @@ img {
 
 /* 1 section */
 
-.introduction-1 {
+.introduction {
     background-color: var(--navy-blue);
     padding: 188px 0;
 }
@@ -221,7 +220,7 @@ img {
 
 /* 2 section */
 
-.advantages-2 {
+.advantages {
     padding: 120px 0;
 }
 
@@ -233,7 +232,7 @@ img {
 
 /* 3 section */
 
-.wawd-3 {
+.wawd {
     padding-bottom: 120px;
 }
 
@@ -248,7 +247,7 @@ img {
 
 /* 4 section */
 
-.developers-4 {
+.developers {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
